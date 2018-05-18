@@ -1,6 +1,6 @@
 {
   "name": "seo-chufengli",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "shopback node.js code challenge",
   "main": "index.js",
   "scripts": {
