@@ -1,0 +1,21 @@
+{
+  "name": "seo-chufengli",
+  "version": "1.0.10",
+  "description": "shopback node.js code challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shopback"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "chufengli",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
