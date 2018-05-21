@@ -9,14 +9,6 @@
 npm install seo-chufengli
 ```
 
-### Rules
-Yo can detect a html file with following rules:
-	- Detect if any <img /> tag without alt attribute
-	- Detect if any <a /> tag without rel attribute
-	- Detect <head> tag
-	- Detect if there’re more than a number <strong> tag in HTML
-	- Detect if a HTML have more than one <H1> tag
-
 ### Usage
 ```javascript
 var seo = require('seo-chufengli')
