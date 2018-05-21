@@ -9,7 +9,7 @@
 npm install seo-chufengli
 ```
 
-## Rules
+### Rules
 Yo can detect a html file with following rules:
 	- Detect if any <img /> tag without alt attribute
 	- Detect if any <a /> tag without rel attribute
@@ -17,7 +17,7 @@ Yo can detect a html file with following rules:
 	- Detect if there’re more than a number <strong> tag in HTML
 	- Detect if a HTML have more than one <H1> tag
 
-## Usage
+### Usage
 ```javascript
 var seo = require('seo-chufengli')
 var shopback = new seo.readFile('test.html')
@@ -31,7 +31,7 @@ var shopback = new seo.readFile('test.html')
     .consoleLog()
 ```
 
-## Set Rules Easily
+### Set Rules Easily
 ```javascript
 var seo = require('seo-chufengli')
 var shopback = new seo.readFile('test.html')
@@ -45,7 +45,7 @@ var shopback = new seo.readFile('test.html')
     .consoleLog()
 ```
 
-## Write Result to a File
+### Write Result to a File
 ```javascript
 var seo = require('seo-chufengli')
 var shopback = new seo.readFile('test.html')
@@ -59,12 +59,12 @@ var shopback = new seo.readFile('test.html')
  - The input can be Node Readable Stream
  - The output cab be Node Writable Stream
 
-## License
+### License
 ----
 
 MIT
 
-## Acknowledgements
+### Acknowledgements
 ----
 
 - [cheeriojs/cheerio](https://github.com/cheeriojs/cheerio)
